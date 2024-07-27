@@ -102,4 +102,9 @@ function exportQuotes() {
 
     </div>`;
   document.getElementById("quoteForm").innerHTML = form;
+
+   <select id="categoryFilter" onchange="filterQuotes()">
+    <option value="all">All Categories</option>
+    <!-- Dynamically populated categories -->
+  </select>
   });
