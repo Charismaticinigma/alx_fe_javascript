@@ -95,5 +95,11 @@ function exportQuotes() {
         };
         fileReader.readAsText(event.target.files[0]);
       }
-    
+      <div>
+        <input id="newQuoteText" type="text" placeholder="Enter a new quote"/>
+        <input id="newQuoteCategory" type="text" placeholder="Enter a new category"/>
+        <button onclick="addQuote()">Add Quote</button>
+
+    </div>`;
+  document.getElementById("quoteForm").innerHTML = form;
   });
